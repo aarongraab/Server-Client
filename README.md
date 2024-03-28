@@ -26,6 +26,7 @@ How to run File 2:
 - Start the client: java ClientName localhost 'PortNumber'.
 - Enter username: username.
 - Enter password: password.
+- If login attempt fails 5 times, server will disconnect.
 - Add items to a queue with command 'add x', where x is the desired item to add.
 - Remove items from the queue with command 'remove'. Removes the first item in the queue.
 - Print queue with command 'print'.
